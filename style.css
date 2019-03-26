@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 120px;
+    background-color: #412718;
+    padding: 25px 30px;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header p {
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header ul {
+    list-style-type: none;
+    float: right;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header a {
+    display: block;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    border-left: 3px solid #412718;
+    border-right: 3px solid #412718;
+    width: 60px;
+    padding: 10px;
+    background: #8f5f26;
+    text-align: center;
+}
+
+.header a:hover {
+    background: #f90;
+}
+
+.aboutUsBook {
+    padding: 30px;
+    background-color: #5b3a27;
+}
+
+.book {
+    float: right;
+    width: 340px;
+    height: 630px;
+    border: 2px solid #a46461;
+}
+
+.foto {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto a {
+    text-decoration: none;
+}
+
+.foto .img {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.booking {
+    max-width: 350px;
+    margin: 50px auto 0;
+    padding: 20px;
+    background: #5b3a27;
+    font-family: "Arial", sans-serif;
+}
+
+.booking h3 {
+    font-family: "Arial", sans-serif;
+    padding: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #f90;
+    background: #5b3a27;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #5b3a27;
+}
+
+.form-group input,
+.form-group label,
+.form-group textarea {
+    display: block;
+    width: 100%;
+}
+
+.form-group input {
+    padding: 0;
+    line-height: 30px;
+    background: #f90;
+    border-width: 0;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: #f90;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.submit-block {
+    background: #5b3a27;
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 10px;
+    background: #f90;
+}
+
+.submit-button input {
+    padding: 0;
+    background: #f90;
+    border-width: 0;
+    text-transform: uppercase;
+}
+
+
+.news {
+    background-color: #46291c;
+    height: 520px;
+}
+
+.footer {
+    height: 287px;
+    background-color: #20130b;
+}
