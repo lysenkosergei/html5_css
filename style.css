@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans.ttf");
+}
+
+.conteiner {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 738px;
+    background-image: url(images/header.jpg);
+}
+
+.logo a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 40px;
+    float: left;
+}
+
+.nav ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.nav li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 33px;
+    width: 80px;
+    text-align: center;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav li:hover {
+    background-image: url(images/nav.png);
+}
+
+.thisIsBouncy {
+    background-color: #fff;
+    height: 490px;
+}
+
+.thisIs {
+    font-family: "Open Sans", sans-serif;
+    float: left;
+    width: 470px;
+    margin-left: 266px;
+    margin-top: 115px;
+}
+
+.thisIs h1 {
+    font-size: 20px;
+    color: #333b46;
+    margin-bottom: 40px;
+}
+
+.thisIs p {
+    font-size: 14px;
+    color: #81868e;
+}
+
+.thisIs a {
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 37px;
+    width: 140px;
+    background-image: url(images/button.png);
+    color: #333b46;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.thisIsBouncy img {
+    float: right;
+    margin-right: 266px;
+    margin-top: 88px;
+}
+
+.project {
+    height: 240px;
+    background-color: #f3f3f3;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding-top: 85px;
+    box-sizing: border-box;
+}
+
+.project h1 {
+    font-size: 20px;
+    color: #333b46;
+    margin-bottom: 45px;
+}
+
+.project p {
+    font-size: 14px;
+    color: #81868e;
+}
+
+.featureProject .img {
+    display: flex;
+}
+
+.project1 {
+    width: 362px;
+}
+
+.submit {
+    height: 113px;
+    background-image: url(images/submit.jpg);
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    padding: 40px 168px;
+    box-sizing: border-box;
+}
+
+.submit p {
+    float: left;
+    font-size: 20px;
+}
+
+.submit a {
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 37px;
+    width: 140px;
+    background-image: url(images/submitbutton.png);
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.link {
+    margin-top: 85px;
+    margin-bottom: 75px;
+}
+
+.link ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.link li {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #464646;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.link a:hover {
+    color: #19bd9a;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-auto-rows: 50px;
+    grid-gap: 5px;
+    margin-bottom: 75px;
+}
+
+.a {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    object-fit: contain;
+}
+
+.b {
+    grid-column: 2 / 3;
+    grid-row: 1 / 7;
+}
+
+.c {
+    grid-column: 3 / 4;
+     grid-row: 1 / 4;
+}
+
+.d {
+    grid-column: 4 / 5;
+         grid-row: 1 / 6;
+}
+
+.box {
+    background-color: #19bd9a;
+}
